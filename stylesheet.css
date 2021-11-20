@@ -1,0 +1,145 @@
+
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: grey;
+}
+.header{
+    background-color:grey;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.header p{
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(238, 177, 177);
+    padding-bottom: 4px;
+    font-weight: 700;
+    white-space: unset;
+}
+.header h2{
+    font-family: 'Acme', sans-serif;
+    font-size:30px;
+    color:#f8b700;
+}
+.interface{
+    padding:0;
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    background-color: #1b1b1b;
+    margin-bottom: 10px;
+}
+.interface a{
+    display:flex;
+    /* flex-wrap: nowrap; */
+}
+.interface h3{
+    color: #f8b700;
+    font-size: 2rem;
+
+}
+.interface p{
+    color: white;
+    font-size: large;
+    display: bl;
+}
+.interface img{
+    width: 120px;
+    height: 140px;
+}
+.interface div{
+    width:220px;
+    padding: 0 10px 0 20px ;
+    background-color: #1b1b1b;
+    color: white;
+}
+.interface a:hover{
+    opacity: 0.5px;
+    background-color: rgb(180, 180, 184);
+}
+.interface ul li{
+    list-style: none;
+    border: 0.1em solid rgb(73, 72, 72);
+    border-radius: 20px;
+    margin:2em;
+    padding: 2em;
+    background-color: brown;
+   
+
+}
+
+.action a {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    align-items: center;
+    /* margin-left: 50rem ; */
+    padding:5px ;
+    border-radius:10px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+.action a:hover {
+    opacity: 0.2px;
+    background-color: rgb(212, 95, 95);
+}
+
+.enemy{
+    padding:0;
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    background-color: #1b1b1b;
+    margin-top: 10px;
+}
+.enemy a{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.enemy img{
+    width: 120px;
+    height: 140px;
+}
+.enemy div{
+    width:220px;
+    padding: 0 10px 0 20px ;
+    background-color: #1b1b1b;
+    color: white;
+}
+.enemy h3{
+    color: #f8b700;
+    font-size: 2rem;
+}
+#winner{
+    background-color: rgb(41, 255, 41);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    align-items: center;
+    padding:5px ;
+    border-radius:10px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+#looser{
+    background-color: rgb(38, 58, 38);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    align-items: center;
+    padding:5px ;
+    border-radius:10px ;
+    font-family: 'Courier New', Courier, monospace;
+}

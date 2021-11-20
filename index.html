@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <p>Play the greatest 1on1 game ever to be made!</p>
+        <h2>Choose Your Warrior</h2>
+        </div>
+        <div class="interface">
+            <ul>
+                <li> 
+                    <a href="#" onclick="main.setGameStart('Rogue')">
+                    <img src="images\player-image\rogue.jpg" alt="rogue">
+                    <h3>Rogue</h3><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sint maiores aliquam iure ullam, magni rerum cumque ad, quidem, atque quae! Labore vero quos cupiditate, earum quo unde iusto repellat?</p>  
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="main.setGameStart('Mage')">
+                        <img src="images\player-image\mage.jpg" alt="mage">
+                        <h3>Mage</h3><br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sint maiores aliquam iure ullam, magni rerum cumque ad, quidem, atque quae! Labore vero quos cupiditate, earum quo unde iusto repellat?</p>  
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="main.setGameStart('Hunter')">
+                     <img src="images\player-image\hunter.jpg" alt="hunter">
+                     <h3>Hunter</h3><br>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas sint maiores aliquam iure ullam, magni rerum cumque ad, quidem, atque quae! Labore vero quos cupiditate, earum quo unde iusto repellat?</p>  
+                    </a>
+                </li>
+            </ul> 
+        </div>
+        <div class="action"></div>
+        <div class="arena"></div>
+        <div class="enemy"></div>            
+    </div>
+</body>
+    <script src='JS/main.js'></script>
+    <script src='JS/enemy.js'></script>
+    <script src='JS/player.js'></script>
+</html>
